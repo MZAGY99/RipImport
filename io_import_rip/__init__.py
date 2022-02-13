@@ -9,9 +9,9 @@
 
 bl_info = {
     "name": "NinjaRipper RIP Format",
-    "author": "Dummiesman, 2.8 compatibility by xpawelsky",
-    "version": (0, 0, 2),
-    "blender": (2, 80, 0),
+    "author": "Dummiesman, 3.0 compatibility by MinisterMadness",
+    "version": (0, 0, 3),
+    "blender": (3, 00, 0),
     "location": "File > Import",
     "description": "Import RIP files",
     "warning": "",
@@ -105,7 +105,7 @@ class ImportRIP(bpy.types.Operator, ImportHelper):
 def menu_func_import(self, context):
     self.layout.operator(ImportRIP.bl_idname, text="NinjaRipper (.rip)")
 
-#2.8 Fix
+#2.8+ Fix,
 
 def register():
 	from bpy.utils import register_class
