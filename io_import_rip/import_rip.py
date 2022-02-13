@@ -230,7 +230,7 @@ def load_rip(filepath,
 
     print("importing rip: %r..." % (filepath))
 
-    time1 = time.clock()
+    time1 = time.perf_counter()
     file = open(filepath, 'rb')
 
     # start reading our rip file
@@ -239,7 +239,7 @@ def load_rip(filepath,
     
     read_rip_file(file, filepath_basename[:-4], texture_search_path)
 
-    print(" done in %.4f sec." % (time.clock() - time1))
+    print(" done in %.4f sec." % (time.perf_counter() - time1))
     file.close()
 
 
