@@ -1,6 +1,6 @@
-# Blender 2.8 .rip (NinjaRipper) import Add-On
+# Blender 3.0 .rip (NinjaRipper) import Add-On
 
-Initially created by Dummiesman, updated by me to make it work with Blender 2.8 *(tested with 19-01-2019 8ba86020cc50)*
+Initially created by Dummiesman, updated by me to make it work with Blender 3.0 *(tested with 2021-12-02 18:35, f1cca3055776)*
 
 IT ONLY IMPORTS DIFFUSE TEXTURE, ADDITIONAL TEXTURES YOU HAVE TO ADD MANUALLY
 
@@ -24,7 +24,7 @@ File -> Import... -> NinjaRipper (.rip)
 
 # Original README
 > Blender RIP Add-On
-> Version 0.1
+> Version 0.2
 > September 30th 2016
 >
 > Ported by Dummiesman from the vanilla NinjaRipper MaxScript
